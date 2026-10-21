@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tugas 4 - ID vs Class</title>
+    <style>
+        #paragraf-1 {
+            color: red;
+        }
+        /* Class sengaja ditulis SETELAH id, tetap kalah */
+        .textparagraf {
+            color: blue;
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tugas 4: ID vs Class pada satu elemen</h2>
+    <p id="paragraf-1" class="textparagraf">Elemen ini punya id DAN class -> warna MERAH (dari ID), ukuran 22px (dari class, karena tidak bentrok).</p>
+    <p class="textparagraf">Elemen ini hanya punya class -> warna BIRU.</p>
+</body>
+</html>
